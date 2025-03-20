@@ -407,3 +407,220 @@
   text-decoration-line: underline;
   margin-top: 24px;
 }
+.next-target {
+  margin-top: 111px;
+  margin-left: 148px;
+  margin-right: 152px;
+  width: 1140px;
+  height: 866px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next-target-title h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.next-target-title p {
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.next-target-card-container {
+  margin-top: 48px;
+  width: 1140px;
+  height: 219px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.next-target-card {
+  /* border: 1px solid black; */
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.next-target-card-title {
+  width: 941.22px;
+  height: 139px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.next-target-card-title h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.next-target-card-title p {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.next-target-card-title a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+#next-card2 {
+  margin-top: 24px;
+}
+
+#next-card3 {
+  margin-top: 24px;
+}
+
+#nodejs {
+  width: 892.49px;
+  height: 139px;
+}
+
+.support-section {
+  width: 1140px;
+  height: 313px;
+  margin-top: 49px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      45deg,
+      rgb(9, 9, 9) 3.482%,
+      rgba(16, 16, 16, 0) 101.632%
+    ),
+    url(./assets/handshake.jpg);
+}
+
+.support-section-container {
+  width: 1044px;
+  height: 185px;
+  padding: 64px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-section-title {
+  width: 730px;
+  height: 104px;
+}
+
+.support-section-title h2 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.support-section-title p {
+  width: 606px;
+  height: 52px;
+  margin-top: 16px;
+  margin-left: 62px;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.support-input {
+  /* border: 1px solid white; */
+  margin-top: 24px;
+  width: 684px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.support-input textarea {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  width: 548px;
+  height: 57px;
+  resize: none;
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 17px 20px 17px 20px;
+}
+
+.support-input input {
+  width: 120px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
