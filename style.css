@@ -5,6 +5,9 @@
   padding: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* nav bar design */
 .navbar {
   width: 1440px;
@@ -25,7 +28,7 @@
   margin-left: 150px;
 }
 
-.navbar input {
+.navbar a {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 20px;
@@ -39,6 +42,7 @@
   padding: 17px 24px;
   margin-right: 150px;
   opacity: 0.8;
+  text-decoration: none;
 }
 
 /* 1st section design */
